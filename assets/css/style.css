@@ -2,28 +2,24 @@
 Bootstrap Portfolio CSS Stylesheet
  **/
 
-
-
 body{
     background: url("../images/memphis-mini.png"); 
     padding: 0;
     margin: 0;   
 }
 
-.navbar, 
-.navbar-expand-sm,
-.navbar-expand-md,
-.navbar-expand-lg,
-.navbar-expand-xl{
+.navbar-wrapper {
+    background-color: #CCC;
+    border-bottom: #CCC;
+}
+
+.navbar {
+    max-width: 960px;
     background-color: #ffffff;
     border-color: #cccccc;
-    text-align: left;
     border-style: solid;
     border-width: 0 0 1px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto 40px;
+    margin: 0 auto;
     padding: 30px 0 0 0;
     color: #ffffff;
 }
@@ -32,9 +28,9 @@ body{
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     padding: 40px;
-    margin: 0px 0px 0px 490px;
     font-size: 40px;
     color: #ffffff; 
+    font-weight: bold;
 }
 
 .navbar-nav{
@@ -43,11 +39,16 @@ body{
     list-style-type: none;
     text-align: right;  
     margin: auto;
+    padding: auto;
 }
 
 a{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+}
+
+#icon{
+    font-style: bold;
 }
 
 .nav-item, .active{
@@ -95,8 +96,14 @@ a:active {
     padding: 40px 0 40px 0;
 }
 
+.contact-info{
+    border-bottom: none;
+    padding: 40px 0 0px 0;
+}
+
 h2{
     margin: 0 0px 0 40px;
+    font-weight: bold;
 }
 
 #input{
@@ -104,7 +111,6 @@ h2{
     color: #777777;
     margin: 0 40px 40px 40px;
     padding: 25px 0 0px 0;
-    
 }
 
 .col-md-3{
@@ -113,6 +119,9 @@ h2{
 
 .col-md-9{
     padding: 40px 40px 40px 10px;
+}
+.col-md-2{
+    padding: 0px 0px 40px 40px;
 }
 
 form{ 
