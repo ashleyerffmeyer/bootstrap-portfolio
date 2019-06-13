@@ -18,7 +18,7 @@ body{
     max-width: 960px;
     background-color: #ffffff;
     margin: 0 auto;
-    color: #ffffff;
+    padding: 20px 0 0 0;
 }
 
 .navbar-brand{
@@ -26,8 +26,9 @@ body{
     background-color: #4aaaa5;
     padding: 40px;
     font-size: 40px;
-    color: #ffffff; 
     font-weight: bold;
+    margin: 0 250px 0 0;
+    color: #fff;
 }
 
 .navbar-nav{
@@ -60,6 +61,7 @@ a{
 
 a:link {
     text-decoration: none;
+    color: #ffffff;
 }
   
 a:visited {
