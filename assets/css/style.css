@@ -139,7 +139,21 @@ form{
     width: 100px;
 }
 
-#eat-cake, #pic1, #pic2, #pic3{
+#eat-cake, #pic3{
+    margin: 40px 40px 0px 40px;
+    padding: 0px 0 0px 0;
+    text-align: center;
+    width: 250px;
+}
+
+#hangman{
+    margin: 40px 40px 0px 40px;
+    padding: 0px 0 0px 0;
+    text-align: center;
+    width: 250px;
+}
+
+#gems{
     margin: 40px 40px 0px 40px;
     padding: 0px 0 0px 0;
     text-align: center;
@@ -157,29 +171,29 @@ form{
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin: -70px 40px 40px 40px;
+    margin: -62px 40px 40px 40px;
     padding: 15px 0;
     text-align: center;
     width: 250px;
     position: absolute;
 }
 
-#pic1-caption{
+#hangman-caption{
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin: -70px 0px 40px 40px;
+    margin: -31px 0px 40px 40px;
     padding: 15px 0;
     text-align: center;
     width: 250px;
     position: absolute;
 }
 
-#pic2-caption{
+#gems-caption{
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin: -70px 40px 40px 40px;
+    margin: -25px 40px 40px 40px;
     padding: 15px 0;
     text-align: center;
     width: 250px;
