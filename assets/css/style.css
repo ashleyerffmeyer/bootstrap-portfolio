@@ -137,8 +137,15 @@ form{
     width: 100px;
 }
 
-#eat-cake, #pic3{
+#eat-cake{
     margin: 40px 40px 0px 40px;
+    padding: 0px 0 0px 0;
+    text-align: center;
+    width: 250px;
+}
+
+#quiz{
+    margin: 15px 40px 0px 40px;
     padding: 0px 0 0px 0;
     text-align: center;
     width: 250px;
@@ -198,11 +205,11 @@ form{
     position: absolute;
 }
 
-#pic3-caption{
+#quiz-caption{
     font-family: 'Alegreya Sans SC', sans-serif, Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin: -100px 0px 40px 40px;
+    margin: -45px 0px 40px 40px;
     padding: 15px 0;
     text-align: center;
     width: 250px;
