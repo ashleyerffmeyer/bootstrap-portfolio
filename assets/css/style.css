@@ -138,36 +138,43 @@ form{
 }
 
 #eat-cake{
-    margin: 40px 40px 0px 40px;
-    padding: 0px 0 0px 0;
-    text-align: center;
-    width: 250px;
-}
-
-#quiz{
-    margin: 15px 40px 0px 40px;
+    margin: 20px 20px 0px 20px;
     padding: 0px 0 0px 0;
     text-align: center;
     width: 250px;
 }
 
 #hangman{
-    margin: 40px 40px 0px 40px;
-    padding: 0px 0 0px 0;
-    text-align: center;
-    width: 250px;
-}
-
-#gems{
-    margin: 40px 40px 0px 40px;
+    margin: 20px 20px 0px 20px;
     padding: 0px 0 0px 0;
     text-align: center;
     width: 250px;
 }
 
 #rpg{
-    margin: 60px 40px 40px 40px;
+    margin: 20px 20px 0px 20px;
     padding: 0px 0 40px 0;
+    text-align: center;
+    width: 250px;
+}
+
+#gems{
+    margin: 0px 20px 0px 20px;
+    padding: 0px 0 0px 0;
+    text-align: center;
+    width: 250px;
+}
+
+#quiz{
+    margin: 0px 20px 0px 20px;
+    padding: 0px 0 0px 0;
+    text-align: center;
+    width: 250px;
+}
+
+#gif{
+    margin: 0px 20px 0px 20px;
+    padding: 0px 0 0px 0;
     text-align: center;
     width: 250px;
 }
@@ -176,7 +183,7 @@ form{
     font-family: 'Alegreya Sans SC', sans-serif, Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin: -62px 40px 40px 40px;
+    margin: -62px 40px 40px 20px;
     padding: 15px 0;
     text-align: center;
     width: 250px;
@@ -187,29 +194,7 @@ form{
     font-family: 'Alegreya Sans SC', sans-serif, Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin: -31px 0px 40px 40px;
-    padding: 15px 0;
-    text-align: center;
-    width: 250px;
-    position: absolute;
-}
-
-#gems-caption{
-    font-family: 'Alegreya Sans SC', sans-serif, Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    margin: -25px 40px 40px 40px;
-    padding: 15px 0;
-    text-align: center;
-    width: 250px;
-    position: absolute;
-}
-
-#quiz-caption{
-    font-family: 'Alegreya Sans SC', sans-serif, Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    margin: -45px 0px 40px 40px;
+    margin: -31px 0px 40px 20px;
     padding: 15px 0;
     text-align: center;
     width: 250px;
@@ -220,11 +205,65 @@ form{
     font-family: 'Alegreya Sans SC', sans-serif, Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin: -80px 40px 40px 40px;
+    margin: -40px 40px 40px 20px;
     padding: 15px 0;
     text-align: center;
     width: 250px;
     position: absolute;
+}
+
+#gems-caption{
+    font-family: 'Alegreya Sans SC', sans-serif, Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: -25px 40px 40px 20px;
+    padding: 15px 0;
+    text-align: center;
+    width: 250px;
+    position: absolute;
+}
+
+#quiz-caption{
+    font-family: 'Alegreya Sans SC', sans-serif, Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: -45px 0px 40px 20px;
+    padding: 15px 0;
+    text-align: center;
+    width: 250px;
+    position: absolute;
+}
+
+#gif-caption{
+    font-family: 'Alegreya Sans SC', sans-serif, Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: -5px 0px 40px 20px;
+    padding: 15px 0;
+    text-align: center;
+    width: 250px;
+    position: absolute;
+}
+
+.fab, .fas{
+    font-size: 35px;
+    color: #ffffff;
+    margin: 0 10px 0 10px;
+}
+
+.large{
+    font-size: 60px;
+    color:  #4aaaa5;
+    margin: 0 20px 0 20px;
+}
+
+.lets-connect{
+    padding: 20px 0 0px 0;
+    border-bottom: none;
+}
+
+.submit-button{
+    padding: 0px 0px 15px 40px;
 }
     
 .footer{
